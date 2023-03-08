@@ -1,0 +1,6 @@
+.cover {
+  border: 1px solid red;
+  margin: auto;
+  display: grid;
+ position: relative;
+}
