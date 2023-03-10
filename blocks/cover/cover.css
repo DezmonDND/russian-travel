@@ -2,5 +2,8 @@
   border: 1px solid red;
   margin: auto;
   display: grid;
- position: relative;
+grid-template-rows: auto auto auto;
+grid-template-columns: 1fr auto auto auto auto 1fr;
+row-gap: 32px;
+
 }

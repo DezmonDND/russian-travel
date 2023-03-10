@@ -4,11 +4,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  position: absolute;
-  bottom: 30%;
-  left: 50%;
-  transform: translatex(-50%);
-  max-width: 360px;
+   max-width: 360px;
   text-align: center;
+  grid-column: 3/5;
+  grid-row: 3/4;
+  z-index: 2;
+
 
 }

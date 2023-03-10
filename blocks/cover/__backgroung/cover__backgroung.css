@@ -1,5 +1,12 @@
 .cover__backgroung {
+  max-width: 1184px;
+  z-index: 0;
+  grid-row: 1/5;
+  grid-column: 1/7;
   border: 1px solid red;
-  width: 1184px;
-  height: 740px;
+  box-sizing: border-box;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
 }
