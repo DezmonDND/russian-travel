@@ -1,12 +1,9 @@
 .cover {
-  border: 1px solid red;
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto auto auto auto;
   row-gap: 32px;
-  margin-bottom: 92px;
-  margin-top: 92px;
-
+  margin: 92px auto;
 }
 
 @media screen and (min-width:1024px) and (max-width:1184px) {

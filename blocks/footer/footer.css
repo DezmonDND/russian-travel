@@ -1,15 +1,11 @@
 .footer {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
-  max-width: 1184px;
- 
   margin-bottom: 24px;
-
 }
 
 @media screen and (max-width:728px) {
   .footer {
-flex-direction: column;
+    flex-direction: column;
   }
 }
