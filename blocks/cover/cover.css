@@ -1,9 +1,30 @@
 .cover {
   border: 1px solid red;
-  margin: auto;
   display: grid;
-grid-template-rows: auto auto auto;
-grid-template-columns: 1fr auto auto auto auto 1fr;
-row-gap: 32px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
+  row-gap: 32px;
+  margin-bottom: 92px;
+  margin-top: 92px;
 
+}
+
+@media screen and (min-width:1024px) and (max-width:1184px) {
+  .cover {
+    margin-left: -48px;
+    margin-right: -48px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .cover {
+    margin: 90px -24px 88px -24px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cover {
+    margin: 66px -16px 64px -16px;
+    row-gap: 16px;
+  }
 }

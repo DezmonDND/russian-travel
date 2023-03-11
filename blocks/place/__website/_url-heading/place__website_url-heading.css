@@ -5,4 +5,15 @@
   font-size: 12px;
   line-height: 12px;
   max-width: 456px;
+  color: #aaaaaa;
+  margin-bottom: 12px;
 }
+
+@media screen and (max-width:768px) {
+  .place__website_url-heading {
+    font-size: 12px;
+    line-height: 12px;
+
+  }
+}
+

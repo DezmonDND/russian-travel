@@ -12,3 +12,16 @@
 
 
 }
+
+@media screen and (max-width:728px) {
+  .cover__subtitle {
+font-size: 14px;
+line-height: 16px;
+  }
+}
+
+@media screen and (max-width:460px) {
+  .cover__subtitle {
+    grid-column: 2/6;
+}
+}

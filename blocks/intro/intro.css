@@ -1,5 +1,25 @@
 .intro {
   border: 1px solid red;
-  align-self: center;
-  margin-top: 114px;
+  align-self: flex-start;
+  margin-top: 92px;
+  margin-left: 98px;
+}
+
+@media screen and (max-width:1024px) {
+  .intro {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .intro {
+    margin-left: 0;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .intro {
+    margin-top: 64px;
+  }
 }

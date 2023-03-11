@@ -1,15 +1,16 @@
-.footer {
+.footer__links {
   border: 1px solid red;
+  margin: 0;
   display: flex;
-  justify-content: space-between;
-  max-width: 1184px;
- 
-  margin-bottom: 24px;
+  align-items: center;
 
 }
 
 @media screen and (max-width:728px) {
-  .footer {
+  .footer__links {
 flex-direction: column;
+align-items: flex-start;
+
+
   }
 }
