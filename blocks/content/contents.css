@@ -1,16 +1,5 @@
-body {
-  font-family: "Inter";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
-
 .content {
   display: flex;
-  font-family: 'Inter';
   flex-direction: column;
   margin: 0 48px 0 48px;
  }
@@ -26,4 +15,3 @@ body {
     margin: 0 24px 0 24px;
   }
 }
-

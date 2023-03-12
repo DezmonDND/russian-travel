@@ -14,8 +14,23 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:461px) and (max-width:768px) {
   .place__image {
     max-width: 340px;
+  }
+}
+
+@media screen and (max-width:460px) {
+  .place__image {
+    min-width: calc(100% + 32px);
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width:319px) {
+  .place__image {
+    max-width: 100px;
   }
 }
