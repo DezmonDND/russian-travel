@@ -18,4 +18,4 @@
 
 **Ссылка на проект**
 
-https://dezmondnd.github.io/russian-travel/
+[Путешествие по России](https://dezmondnd.github.io/russian-travel/)
