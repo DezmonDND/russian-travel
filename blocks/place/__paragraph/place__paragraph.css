@@ -4,10 +4,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+  margin-bottom: 26px;
 }
 
-.place__paragraph:first-of-type {
-  margin-bottom: 26px;
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width:768px) {

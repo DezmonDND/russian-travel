@@ -16,16 +16,16 @@
   transition: 1s;
 }
 
-@media screen and (max-width:320px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
-
 @media screen and (max-width:728px) {
   .footer__link {
     margin-bottom: 32px;
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
   }
 }

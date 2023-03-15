@@ -1,6 +1,5 @@
 .website {
   max-width: 456px;
-  max-height: 46px;
   align-self: end;
   margin-bottom: 48px;
   grid-column: 2;
@@ -9,5 +8,7 @@
 @media screen and (max-width:460px) {
   .website {
     margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
